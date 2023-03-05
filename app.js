@@ -32,7 +32,11 @@ app.use(function (req, res, next) {
 })
 app.use(router);
 
-mongoose.connect(db.settings.dbUrl, {
+let dbConn = db.settings.dbUrl;
+
+dbConn = dbConn.replace(encodeURIComponent("AU!k%eHxkE2Y4sZ"));
+
+mongoose.connect(dbConn, {
   useNewUrlParser: true,
   // useCreateIndex: true,
   useUnifiedTopology: true,

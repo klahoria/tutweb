@@ -1,5 +1,5 @@
 {
     "settings": {
-        "dbUrl": "mongodb+srv://erlalitlahoria:AU!k%eHxkE2Y4sZ@tutweb.rb2qtmu.mongodb.net/?retryWrites=true&w=majority"
+        "dbUrl": "mongodb+srv://erlalitlahoria:<password>@tutweb.rb2qtmu.mongodb.net/?retryWrites=true&w=majority"
     }
 }
