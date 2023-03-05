@@ -34,7 +34,9 @@ app.use(router);
 
 let dbConn = db.settings.dbUrl;
 
-dbConn = dbConn.replace(encodeURIComponent("AU!k%eHxkE2Y4sZ"));
+dbConn = dbConn.replace("<password>",encodeURIComponent("uduQhOl1PAgXaVtb"));
+
+console.log(dbConn);
 
 mongoose.connect(dbConn, {
   useNewUrlParser: true,
