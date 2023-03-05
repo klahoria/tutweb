@@ -1,0 +1,5 @@
+{
+    "settings": {
+        "dbUrl": "mongodb://localhost:27017/tutweb_qa"
+    }
+}
